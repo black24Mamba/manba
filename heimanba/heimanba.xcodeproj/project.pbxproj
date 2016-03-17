@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A35645C1C9A505E0095D401 /* asdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A35645B1C9A505E0095D401 /* asdTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		FB41CBD51C9A3EB300B96459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB41CBD41C9A3EB300B96459 /* main.m */; };
 		FB41CBD81C9A3EB300B96459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB41CBD71C9A3EB300B96459 /* AppDelegate.m */; };
 		FB41CBDB1C9A3EB300B96459 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB41CBDA1C9A3EB300B96459 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A35645A1C9A505E0095D401 /* asdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asdTableViewController.h; sourceTree = "<group>"; };
+		2A35645B1C9A505E0095D401 /* asdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = asdTableViewController.m; sourceTree = "<group>"; };
 		FB41CBD01C9A3EB300B96459 /* heimanba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heimanba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB41CBD41C9A3EB300B96459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB41CBD61C9A3EB300B96459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +48,8 @@
 		FB41CBC71C9A3EB300B96459 = {
 			isa = PBXGroup;
 			children = (
+				2A35645A1C9A505E0095D401 /* asdTableViewController.h */,
+				2A35645B1C9A505E0095D401 /* asdTableViewController.m */,
 				FB41CBD21C9A3EB300B96459 /* heimanba */,
 				FB41CBD11C9A3EB300B96459 /* Products */,
 			);
@@ -157,6 +162,7 @@
 				FB41CBEC1C9A44EC00B96459 /* HFkjfkjdViewController.m in Sources */,
 				FB41CBDB1C9A3EB300B96459 /* ViewController.m in Sources */,
 				FB41CBD81C9A3EB300B96459 /* AppDelegate.m in Sources */,
+				2A35645C1C9A505E0095D401 /* asdTableViewController.m in Sources */,
 				FB41CBD51C9A3EB300B96459 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +312,7 @@
 				FB41CBE91C9A3EB300B96459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
